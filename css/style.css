@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+   padding: 5px;
+}
+
+.overLine{
+    text-decoration: line-through; 
+}
