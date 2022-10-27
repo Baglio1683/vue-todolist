@@ -21,7 +21,8 @@
         <label for=""></label>
         <input type="text"
          placeholder="Impegno da aggiungere"
-         v-model="newTodo.text">
+         v-model="newTodo.text"
+         @keyup.enter="addTask">
 
         <button @click="addTask">Aggiungi</button>
 
