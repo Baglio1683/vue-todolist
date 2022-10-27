@@ -26,10 +26,18 @@ ul li{
    padding: 5px; 
 }
 
+ul span {
+    display: inline-block;
+}
+
 .overLine{
     text-decoration: line-through; 
 }
 
 .ml_10{
     margin-left: 10px;
+}
+
+.no_decoration{
+    text-decoration: none;
 }
