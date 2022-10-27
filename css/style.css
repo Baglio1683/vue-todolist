@@ -23,9 +23,13 @@ ul{
 }
 
 ul li{
-   padding: 5px;
+   padding: 5px; 
 }
 
 .overLine{
     text-decoration: line-through; 
+}
+
+.ml_10{
+    margin-left: 10px;
 }

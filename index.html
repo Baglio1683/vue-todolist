@@ -19,7 +19,9 @@
         <h1>Lista Impegni</h1>
 
         <ul>
-            <li v-for="(item) in todoList" :class="{'overLine': item.done}">{{item.text}}</li>
+            <li v-for="(item,index) in todoList" :class="{'overLine': item.done}">{{item.text}} 
+                <span class="ml_10" @click="delete_item(index)">&cross;</span>
+            </li>
         </ul>
 
 
