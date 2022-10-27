@@ -41,3 +41,7 @@ ul span {
 .no_decoration{
     text-decoration: none;
 }
+
+li:hover{
+    cursor:default;
+}
