@@ -27,7 +27,7 @@
         <button @click="addTask">Aggiungi</button>
 
         <ul>
-            <li v-for="(item,index) in todoList" :class="{'overLine': item.done === true}">{{item.text}} 
+            <li v-for="(item,index) in todoList" :class="{'overLine': item.done === true}" @click="changeBool(index)">{{item.text}} 
                 <span class="ml_10" @click="delete_item(index)">&cross;</span>
             </li>
         </ul>
