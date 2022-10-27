@@ -26,6 +26,7 @@ createApp({
         addTask(){
 
             this.todoList.push({...this.newTodo})
+            this.newTodo.text = ""
 
         },
 
