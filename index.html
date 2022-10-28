@@ -18,13 +18,15 @@
 
         <h1>Lista Impegni</h1>
 
-        <label for=""></label>
+        <label for="text_item"></label>
         <input type="text"
          placeholder="Impegno da aggiungere"
          v-model="newTodo.text"
-         @keyup.enter="addTask">
+         @keyup.enter="addTask"
+         id="text_item">
 
         <button @click="addTask">Aggiungi</button>
+        
 
         <ul>
             <li v-for="(item,index) in todoList" :class="{'overLine': item.done === true}" @click="changeBool(index)">{{item.text}} 

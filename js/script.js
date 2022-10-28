@@ -8,8 +8,6 @@ createApp({
 
         newTodo : {text:"" , done:"false"}, 
 
-        newBool : false, 
-        
         todoList : [ {text: "fare la spesa", done: true}, {text: "stirare", done: false}, {text: "lavare i piatti", done: true}, 
         {text: "lavare i vestiti", done: false}]
 
