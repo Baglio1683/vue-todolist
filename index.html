@@ -27,8 +27,8 @@
 
         <button @click="addTask">Aggiungi</button>
         
-
-        <ul>
+        <p v-if="todoList.length === 0"> Per oggi hai finito !!!</p>
+        <ul v-else>
             <li v-for="(item,index) in todoList" :class="{'overLine': item.done === true}" @click="changeBool(index)">{{item.text}} 
                 <span class="ml_10 no_decoration" @click="delete_item(index)">&cross;</span>
             </li>
@@ -39,11 +39,6 @@
 
 
     </div>
-
-    
-
-
-
 
 <script src="js/script.js"></script>
 </body>
